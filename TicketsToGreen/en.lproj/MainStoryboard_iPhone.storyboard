@@ -32,10 +32,10 @@
                                     <action selector="Refresh_Pushed:" destination="2" eventType="touchUpInside" id="cAw-yk-EjD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="?" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="mO1-fD-K8a">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" text="?" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="mO1-fD-K8a">
                                 <rect key="frame" x="70" y="120" width="194" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="56"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="56"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

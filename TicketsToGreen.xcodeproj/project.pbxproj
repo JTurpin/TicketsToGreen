@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		389A511F1502A6E900ECA779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A511E1502A6E900ECA779 /* UIKit.framework */; };
+		389A51211502A6E900ECA779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A51201502A6E900ECA779 /* Foundation.framework */; };
+		389A51231502A6E900ECA779 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A51221502A6E900ECA779 /* CoreGraphics.framework */; };
+		389A51291502A6E900ECA779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 389A51271502A6E900ECA779 /* InfoPlist.strings */; };
+		389A512B1502A6E900ECA779 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 389A512A1502A6E900ECA779 /* main.m */; };
+		389A512F1502A6E900ECA779 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 389A512E1502A6E900ECA779 /* AppDelegate.m */; };
+		389A51321502A6E900ECA779 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389A51301502A6E900ECA779 /* MainStoryboard_iPhone.storyboard */; };
+		389A51351502A6E900ECA779 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389A51331502A6E900ECA779 /* MainStoryboard_iPad.storyboard */; };
+		389A51381502A6E900ECA779 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389A51371502A6E900ECA779 /* ViewController.m */; };
+		389A51401502A6E900ECA779 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A513F1502A6E900ECA779 /* SenTestingKit.framework */; };
+		389A51411502A6E900ECA779 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A511E1502A6E900ECA779 /* UIKit.framework */; };
+		389A51421502A6E900ECA779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A51201502A6E900ECA779 /* Foundation.framework */; };
+		389A514A1502A6E900ECA779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 389A51481502A6E900ECA779 /* InfoPlist.strings */; };
+		389A514D1502A6E900ECA779 /* TicketsToGreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389A514C1502A6E900ECA779 /* TicketsToGreenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		389A51431502A6E900ECA779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 389A51111502A6E900ECA779 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 389A51191502A6E900ECA779;
+			remoteInfo = TicketsToGreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		389A511A1502A6E900ECA779 /* TicketsToGreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketsToGreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		389A511E1502A6E900ECA779 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		389A51201502A6E900ECA779 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		389A51221502A6E900ECA779 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		389A51261502A6E900ECA779 /* TicketsToGreen-Info.plist */ = {isa = PBXFileReference; path = "TicketsToGreen-Info.plist"; sourceTree = "<group>"; };
+		389A51281502A6E900ECA779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		389A512A1502A6E900ECA779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		389A512C1502A6E900ECA779 /* TicketsToGreen-Prefix.pch */ = {isa = PBXFileReference; path = "TicketsToGreen-Prefix.pch"; sourceTree = "<group>"; };
+		389A512D1502A6E900ECA779 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		389A512E1502A6E900ECA779 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		389A51311502A6E900ECA779 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		389A51341502A6E900ECA779 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		389A51361502A6E900ECA779 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		389A51371502A6E900ECA779 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		389A513E1502A6E900ECA779 /* TicketsToGreenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketsToGreenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		389A513F1502A6E900ECA779 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		389A51471502A6E900ECA779 /* TicketsToGreenTests-Info.plist */ = {isa = PBXFileReference; path = "TicketsToGreenTests-Info.plist"; sourceTree = "<group>"; };
+		389A51491502A6E900ECA779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		389A514B1502A6E900ECA779 /* TicketsToGreenTests.h */ = {isa = PBXFileReference; path = TicketsToGreenTests.h; sourceTree = "<group>"; };
+		389A514C1502A6E900ECA779 /* TicketsToGreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketsToGreenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		389A51171502A6E900ECA779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389A511F1502A6E900ECA779 /* UIKit.framework in Frameworks */,
+				389A51211502A6E900ECA779 /* Foundation.framework in Frameworks */,
+				389A51231502A6E900ECA779 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389A513A1502A6E900ECA779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389A51401502A6E900ECA779 /* SenTestingKit.framework in Frameworks */,
+				389A51411502A6E900ECA779 /* UIKit.framework in Frameworks */,
+				389A51421502A6E900ECA779 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		389A510F1502A6E900ECA779 = {
+			isa = PBXGroup;
+			children = (
+				389A51241502A6E900ECA779 /* TicketsToGreen */,
+				389A51451502A6E900ECA779 /* TicketsToGreenTests */,
+				389A511D1502A6E900ECA779 /* Frameworks */,
+				389A511B1502A6E900ECA779 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		389A511B1502A6E900ECA779 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				389A511A1502A6E900ECA779 /* TicketsToGreen.app */,
+				389A513E1502A6E900ECA779 /* TicketsToGreenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		389A511D1502A6E900ECA779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				389A511E1502A6E900ECA779 /* UIKit.framework */,
+				389A51201502A6E900ECA779 /* Foundation.framework */,
+				389A51221502A6E900ECA779 /* CoreGraphics.framework */,
+				389A513F1502A6E900ECA779 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		389A51241502A6E900ECA779 /* TicketsToGreen */ = {
+			isa = PBXGroup;
+			children = (
+				389A512D1502A6E900ECA779 /* AppDelegate.h */,
+				389A512E1502A6E900ECA779 /* AppDelegate.m */,
+				389A51301502A6E900ECA779 /* MainStoryboard_iPhone.storyboard */,
+				389A51331502A6E900ECA779 /* MainStoryboard_iPad.storyboard */,
+				389A51361502A6E900ECA779 /* ViewController.h */,
+				389A51371502A6E900ECA779 /* ViewController.m */,
+				389A51251502A6E900ECA779 /* Supporting Files */,
+			);
+			path = TicketsToGreen;
+			sourceTree = "<group>";
+		};
+		389A51251502A6E900ECA779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				389A51261502A6E900ECA779 /* TicketsToGreen-Info.plist */,
+				389A51271502A6E900ECA779 /* InfoPlist.strings */,
+				389A512A1502A6E900ECA779 /* main.m */,
+				389A512C1502A6E900ECA779 /* TicketsToGreen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		389A51451502A6E900ECA779 /* TicketsToGreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				389A514B1502A6E900ECA779 /* TicketsToGreenTests.h */,
+				389A514C1502A6E900ECA779 /* TicketsToGreenTests.m */,
+				389A51461502A6E900ECA779 /* Supporting Files */,
+			);
+			path = TicketsToGreenTests;
+			sourceTree = "<group>";
+		};
+		389A51461502A6E900ECA779 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				389A51471502A6E900ECA779 /* TicketsToGreenTests-Info.plist */,
+				389A51481502A6E900ECA779 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		389A51191502A6E900ECA779 /* TicketsToGreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389A51501502A6E900ECA779 /* Build configuration list for PBXNativeTarget "TicketsToGreen" */;
+			buildPhases = (
+				389A51161502A6E900ECA779 /* Sources */,
+				389A51171502A6E900ECA779 /* Frameworks */,
+				389A51181502A6E900ECA779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketsToGreen;
+			productName = TicketsToGreen;
+			productReference = 389A511A1502A6E900ECA779 /* TicketsToGreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		389A513D1502A6E900ECA779 /* TicketsToGreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 389A51531502A6E900ECA779 /* Build configuration list for PBXNativeTarget "TicketsToGreenTests" */;
+			buildPhases = (
+				389A51391502A6E900ECA779 /* Sources */,
+				389A513A1502A6E900ECA779 /* Frameworks */,
+				389A513B1502A6E900ECA779 /* Resources */,
+				389A513C1502A6E900ECA779 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				389A51441502A6E900ECA779 /* PBXTargetDependency */,
+			);
+			name = TicketsToGreenTests;
+			productName = TicketsToGreenTests;
+			productReference = 389A513E1502A6E900ECA779 /* TicketsToGreenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		389A51111502A6E900ECA779 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 389A51141502A6E900ECA779 /* Build configuration list for PBXProject "TicketsToGreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 389A510F1502A6E900ECA779;
+			productRefGroup = 389A511B1502A6E900ECA779 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				389A51191502A6E900ECA779 /* TicketsToGreen */,
+				389A513D1502A6E900ECA779 /* TicketsToGreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		389A51181502A6E900ECA779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389A51291502A6E900ECA779 /* InfoPlist.strings in Resources */,
+				389A51321502A6E900ECA779 /* MainStoryboard_iPhone.storyboard in Resources */,
+				389A51351502A6E900ECA779 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389A513B1502A6E900ECA779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389A514A1502A6E900ECA779 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		389A513C1502A6E900ECA779 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		389A51161502A6E900ECA779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389A512B1502A6E900ECA779 /* main.m in Sources */,
+				389A512F1502A6E900ECA779 /* AppDelegate.m in Sources */,
+				389A51381502A6E900ECA779 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		389A51391502A6E900ECA779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389A514D1502A6E900ECA779 /* TicketsToGreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		389A51441502A6E900ECA779 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 389A51191502A6E900ECA779 /* TicketsToGreen */;
+			targetProxy = 389A51431502A6E900ECA779 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		389A51271502A6E900ECA779 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389A51281502A6E900ECA779 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		389A51301502A6E900ECA779 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389A51311502A6E900ECA779 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		389A51331502A6E900ECA779 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389A51341502A6E900ECA779 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		389A51481502A6E900ECA779 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				389A51491502A6E900ECA779 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		389A514E1502A6E900ECA779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		389A514F1502A6E900ECA779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		389A51511502A6E900ECA779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicketsToGreen/TicketsToGreen-Prefix.pch";
+				INFOPLIST_FILE = "TicketsToGreen/TicketsToGreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		389A51521502A6E900ECA779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicketsToGreen/TicketsToGreen-Prefix.pch";
+				INFOPLIST_FILE = "TicketsToGreen/TicketsToGreen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		389A51541502A6E900ECA779 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TicketsToGreen.app/TicketsToGreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicketsToGreen/TicketsToGreen-Prefix.pch";
+				INFOPLIST_FILE = "TicketsToGreenTests/TicketsToGreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		389A51551502A6E900ECA779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TicketsToGreen.app/TicketsToGreen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TicketsToGreen/TicketsToGreen-Prefix.pch";
+				INFOPLIST_FILE = "TicketsToGreenTests/TicketsToGreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		389A51141502A6E900ECA779 /* Build configuration list for PBXProject "TicketsToGreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389A514E1502A6E900ECA779 /* Debug */,
+				389A514F1502A6E900ECA779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		389A51501502A6E900ECA779 /* Build configuration list for PBXNativeTarget "TicketsToGreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389A51511502A6E900ECA779 /* Debug */,
+				389A51521502A6E900ECA779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		389A51531502A6E900ECA779 /* Build configuration list for PBXNativeTarget "TicketsToGreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				389A51541502A6E900ECA779 /* Debug */,
+				389A51551502A6E900ECA779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 389A51111502A6E900ECA779 /* Project object */;
+}

@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *ttg;
+@property (weak, nonatomic) IBOutlet UIButton *Refresh;
+- (IBAction)Refresh_Pushed:(id)sender;
+- (void)doTTGDataRefresh;
 
 @end

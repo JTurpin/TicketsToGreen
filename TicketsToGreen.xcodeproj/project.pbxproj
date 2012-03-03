@@ -21,6 +21,7 @@
 		389A51421502A6E900ECA779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A51201502A6E900ECA779 /* Foundation.framework */; };
 		389A514A1502A6E900ECA779 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 389A51481502A6E900ECA779 /* InfoPlist.strings */; };
 		389A514D1502A6E900ECA779 /* TicketsToGreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389A514C1502A6E900ECA779 /* TicketsToGreenTests.m */; };
+		389A51571502A70400ECA779 /* green orb.gif in Resources */ = {isa = PBXBuildFile; fileRef = 389A51561502A70400ECA779 /* green orb.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,23 @@
 		389A511E1502A6E900ECA779 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		389A51201502A6E900ECA779 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		389A51221502A6E900ECA779 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		389A51261502A6E900ECA779 /* TicketsToGreen-Info.plist */ = {isa = PBXFileReference; path = "TicketsToGreen-Info.plist"; sourceTree = "<group>"; };
+		389A51261502A6E900ECA779 /* TicketsToGreen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicketsToGreen-Info.plist"; sourceTree = "<group>"; };
 		389A51281502A6E900ECA779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		389A512A1502A6E900ECA779 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		389A512C1502A6E900ECA779 /* TicketsToGreen-Prefix.pch */ = {isa = PBXFileReference; path = "TicketsToGreen-Prefix.pch"; sourceTree = "<group>"; };
-		389A512D1502A6E900ECA779 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		389A512C1502A6E900ECA779 /* TicketsToGreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TicketsToGreen-Prefix.pch"; sourceTree = "<group>"; };
+		389A512D1502A6E900ECA779 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		389A512E1502A6E900ECA779 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		389A51311502A6E900ECA779 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		389A51341502A6E900ECA779 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		389A51361502A6E900ECA779 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		389A51361502A6E900ECA779 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		389A51371502A6E900ECA779 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		389A513E1502A6E900ECA779 /* TicketsToGreenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketsToGreenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		389A513F1502A6E900ECA779 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		389A51471502A6E900ECA779 /* TicketsToGreenTests-Info.plist */ = {isa = PBXFileReference; path = "TicketsToGreenTests-Info.plist"; sourceTree = "<group>"; };
+		389A51471502A6E900ECA779 /* TicketsToGreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TicketsToGreenTests-Info.plist"; sourceTree = "<group>"; };
 		389A51491502A6E900ECA779 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		389A514B1502A6E900ECA779 /* TicketsToGreenTests.h */ = {isa = PBXFileReference; path = TicketsToGreenTests.h; sourceTree = "<group>"; };
+		389A514B1502A6E900ECA779 /* TicketsToGreenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TicketsToGreenTests.h; sourceTree = "<group>"; };
 		389A514C1502A6E900ECA779 /* TicketsToGreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketsToGreenTests.m; sourceTree = "<group>"; };
+		389A51561502A70400ECA779 /* green orb.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "green orb.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		389A51241502A6E900ECA779 /* TicketsToGreen */ = {
 			isa = PBXGroup;
 			children = (
+				389A51561502A70400ECA779 /* green orb.gif */,
 				389A512D1502A6E900ECA779 /* AppDelegate.h */,
 				389A512E1502A6E900ECA779 /* AppDelegate.m */,
 				389A51301502A6E900ECA779 /* MainStoryboard_iPhone.storyboard */,
@@ -227,6 +230,7 @@
 				389A51291502A6E900ECA779 /* InfoPlist.strings in Resources */,
 				389A51321502A6E900ECA779 /* MainStoryboard_iPhone.storyboard in Resources */,
 				389A51351502A6E900ECA779 /* MainStoryboard_iPad.storyboard in Resources */,
+				389A51571502A70400ECA779 /* green orb.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
